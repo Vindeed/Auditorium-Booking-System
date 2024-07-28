@@ -1,0 +1,17 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.sln.docstates
+
+# IDE-specific files
+.vs/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
