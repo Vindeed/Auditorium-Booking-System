@@ -88,23 +88,23 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="src\Forms\Authentication\1Login.vb">
+    <Compile Include="src\Forms\Authentication\Login.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="src\Forms\Authentication\1Login.Designer.vb">
-      <DependentUpon>1Login.vb</DependentUpon>
+    <Compile Include="src\Forms\Authentication\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="src\Forms\Authentication\2Welcome.Designer.vb">
-      <DependentUpon>2Welcome.vb</DependentUpon>
+    <Compile Include="src\Forms\Authentication\Welcome.Designer.vb">
+      <DependentUpon>Welcome.vb</DependentUpon>
     </Compile>
-    <Compile Include="src\Forms\Authentication\2Welcome.vb">
+    <Compile Include="src\Forms\Authentication\Welcome.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="src\Forms\Home\3Home.designer.vb">
-      <DependentUpon>3Home.vb</DependentUpon>
+    <Compile Include="src\Forms\Home\Home.designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
     </Compile>
-    <Compile Include="src\Forms\Home\3Home.vb">
+    <Compile Include="src\Forms\Home\Home.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="src\Forms\BookingsManagement\DeleteBooking\Delete.designer.vb">
@@ -165,10 +165,10 @@
     <Compile Include="src\Forms\BookingsManagement\AddBooking\Transaction.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="src\Forms\BookingsManagement\UpdateBooking\Update1Record.designer.vb">
-      <DependentUpon>Update1Record.vb</DependentUpon>
+    <Compile Include="src\Forms\BookingsManagement\UpdateBooking\UpdateRecord.designer.vb">
+      <DependentUpon>UpdateRecord.vb</DependentUpon>
     </Compile>
-    <Compile Include="src\Forms\BookingsManagement\UpdateBooking\Update1Record.vb">
+    <Compile Include="src\Forms\BookingsManagement\UpdateBooking\UpdateRecord.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="src\Forms\BookingsManagement\UpdateBooking\UpdateBookings.designer.vb">
@@ -191,14 +191,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="src\Forms\Authentication\1Login.resx">
-      <DependentUpon>1Login.vb</DependentUpon>
+    <EmbeddedResource Include="src\Forms\Authentication\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="src\Forms\Authentication\2Welcome.resx">
-      <DependentUpon>2Welcome.vb</DependentUpon>
+    <EmbeddedResource Include="src\Forms\Authentication\Welcome.resx">
+      <DependentUpon>Welcome.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="src\Forms\Home\3Home.resx">
-      <DependentUpon>3Home.vb</DependentUpon>
+    <EmbeddedResource Include="src\Forms\Home\Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="src\Forms\BookingsManagement\DeleteBooking\Delete.resx">
       <DependentUpon>Delete.vb</DependentUpon>
@@ -227,8 +227,8 @@
     <EmbeddedResource Include="src\Forms\BookingsManagement\AddBooking\Transaction.resx">
       <DependentUpon>Transaction.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="src\Forms\BookingsManagement\UpdateBooking\Update1Record.resx">
-      <DependentUpon>Update1Record.vb</DependentUpon>
+    <EmbeddedResource Include="src\Forms\BookingsManagement\UpdateBooking\UpdateRecord.resx">
+      <DependentUpon>UpdateRecord.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="src\Forms\BookingsManagement\UpdateBooking\UpdateBookings.resx">
       <DependentUpon>UpdateBookings.vb</DependentUpon>
