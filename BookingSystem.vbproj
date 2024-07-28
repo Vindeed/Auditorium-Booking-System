@@ -88,42 +88,42 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\Authentication\1Login.vb">
+    <Compile Include="src\Forms\Authentication\1Login.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Authentication\1Login.Designer.vb">
+    <Compile Include="src\Forms\Authentication\1Login.Designer.vb">
       <DependentUpon>1Login.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Authentication\2Welcome.Designer.vb">
+    <Compile Include="src\Forms\Authentication\2Welcome.Designer.vb">
       <DependentUpon>2Welcome.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Authentication\2Welcome.vb">
+    <Compile Include="src\Forms\Authentication\2Welcome.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Home\3Home.designer.vb">
+    <Compile Include="src\Forms\Home\3Home.designer.vb">
       <DependentUpon>3Home.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Home\3Home.vb">
+    <Compile Include="src\Forms\Home\3Home.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\DeleteBooking\Delete.designer.vb">
+    <Compile Include="src\Forms\BookingsManagement\DeleteBooking\Delete.designer.vb">
       <DependentUpon>Delete.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\DeleteBooking\Delete.vb">
+    <Compile Include="src\Forms\BookingsManagement\DeleteBooking\Delete.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Global Variables.vb" />
-    <Compile Include="Forms\Home\Help.designer.vb">
+    <Compile Include="src\Global Variables.vb" />
+    <Compile Include="src\Forms\Home\Help.designer.vb">
       <DependentUpon>Help.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Home\Help.vb">
+    <Compile Include="src\Forms\Home\Help.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\AddBooking\Input.designer.vb">
+    <Compile Include="src\Forms\BookingsManagement\AddBooking\Input.designer.vb">
       <DependentUpon>Input.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\AddBooking\Input.vb">
+    <Compile Include="src\Forms\BookingsManagement\AddBooking\Input.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -141,72 +141,72 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\SearchBookings\Search.designer.vb">
+    <Compile Include="src\Forms\BookingsManagement\SearchBookings\Search.designer.vb">
       <DependentUpon>Search.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\SearchBookings\Search.vb">
+    <Compile Include="src\Forms\BookingsManagement\SearchBookings\Search.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\AddBooking\SeatPlan.designer.vb">
+    <Compile Include="src\Forms\BookingsManagement\AddBooking\SeatPlan.designer.vb">
       <DependentUpon>SeatPlan.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\AddBooking\SeatPlan.vb">
+    <Compile Include="src\Forms\BookingsManagement\AddBooking\SeatPlan.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\SortBookings\Sort.Designer.vb">
+    <Compile Include="src\Forms\BookingsManagement\SortBookings\Sort.Designer.vb">
       <DependentUpon>Sort.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\SortBookings\Sort.vb">
+    <Compile Include="src\Forms\BookingsManagement\SortBookings\Sort.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\AddBooking\Transaction.designer.vb">
+    <Compile Include="src\Forms\BookingsManagement\AddBooking\Transaction.designer.vb">
       <DependentUpon>Transaction.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\AddBooking\Transaction.vb">
+    <Compile Include="src\Forms\BookingsManagement\AddBooking\Transaction.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\UpdateBooking\Update1Record.designer.vb">
+    <Compile Include="src\Forms\BookingsManagement\UpdateBooking\Update1Record.designer.vb">
       <DependentUpon>Update1Record.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\UpdateBooking\Update1Record.vb">
+    <Compile Include="src\Forms\BookingsManagement\UpdateBooking\Update1Record.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\UpdateBooking\UpdateBookings.designer.vb">
+    <Compile Include="src\Forms\BookingsManagement\UpdateBooking\UpdateBookings.designer.vb">
       <DependentUpon>UpdateBookings.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\UpdateBooking\UpdateBookings.vb">
+    <Compile Include="src\Forms\BookingsManagement\UpdateBooking\UpdateBookings.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\UpdateBooking\UpdateSeats.designer.vb">
+    <Compile Include="src\Forms\BookingsManagement\UpdateBooking\UpdateSeats.designer.vb">
       <DependentUpon>UpdateSeats.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\UpdateBooking\UpdateSeats.vb">
+    <Compile Include="src\Forms\BookingsManagement\UpdateBooking\UpdateSeats.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\UpdateBooking\UpdateTransaction.designer.vb">
+    <Compile Include="src\Forms\BookingsManagement\UpdateBooking\UpdateTransaction.designer.vb">
       <DependentUpon>UpdateTransaction.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BookingsManagement\UpdateBooking\UpdateTransaction.vb">
+    <Compile Include="src\Forms\BookingsManagement\UpdateBooking\UpdateTransaction.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Forms\Authentication\1Login.resx">
+    <EmbeddedResource Include="src\Forms\Authentication\1Login.resx">
       <DependentUpon>1Login.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Authentication\2Welcome.resx">
+    <EmbeddedResource Include="src\Forms\Authentication\2Welcome.resx">
       <DependentUpon>2Welcome.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Home\3Home.resx">
+    <EmbeddedResource Include="src\Forms\Home\3Home.resx">
       <DependentUpon>3Home.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BookingsManagement\DeleteBooking\Delete.resx">
+    <EmbeddedResource Include="src\Forms\BookingsManagement\DeleteBooking\Delete.resx">
       <DependentUpon>Delete.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Home\Help.resx">
+    <EmbeddedResource Include="src\Forms\Home\Help.resx">
       <DependentUpon>Help.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BookingsManagement\AddBooking\Input.resx">
+    <EmbeddedResource Include="src\Forms\BookingsManagement\AddBooking\Input.resx">
       <DependentUpon>Input.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -215,28 +215,28 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BookingsManagement\SearchBookings\Search.resx">
+    <EmbeddedResource Include="src\Forms\BookingsManagement\SearchBookings\Search.resx">
       <DependentUpon>Search.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BookingsManagement\AddBooking\SeatPlan.resx">
+    <EmbeddedResource Include="src\Forms\BookingsManagement\AddBooking\SeatPlan.resx">
       <DependentUpon>SeatPlan.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BookingsManagement\SortBookings\Sort.resx">
+    <EmbeddedResource Include="src\Forms\BookingsManagement\SortBookings\Sort.resx">
       <DependentUpon>Sort.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BookingsManagement\AddBooking\Transaction.resx">
+    <EmbeddedResource Include="src\Forms\BookingsManagement\AddBooking\Transaction.resx">
       <DependentUpon>Transaction.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BookingsManagement\UpdateBooking\Update1Record.resx">
+    <EmbeddedResource Include="src\Forms\BookingsManagement\UpdateBooking\Update1Record.resx">
       <DependentUpon>Update1Record.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BookingsManagement\UpdateBooking\UpdateBookings.resx">
+    <EmbeddedResource Include="src\Forms\BookingsManagement\UpdateBooking\UpdateBookings.resx">
       <DependentUpon>UpdateBookings.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BookingsManagement\UpdateBooking\UpdateSeats.resx">
+    <EmbeddedResource Include="src\Forms\BookingsManagement\UpdateBooking\UpdateSeats.resx">
       <DependentUpon>UpdateSeats.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BookingsManagement\UpdateBooking\UpdateTransaction.resx">
+    <EmbeddedResource Include="src\Forms\BookingsManagement\UpdateBooking\UpdateTransaction.resx">
       <DependentUpon>UpdateTransaction.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
@@ -250,7 +250,7 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="App.config" />
+    <None Include="config\App.config" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
